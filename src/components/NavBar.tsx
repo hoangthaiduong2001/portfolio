@@ -8,10 +8,21 @@ const NavBar = () => {
         <img src={logo} alt="logo" width={80} height={80} />
       </div>
       <div className="flex m-8 items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaFacebook />
-        <FaInstagram />
+        <a
+          href="https://www.linkedin.com/in/ho%C3%A0ng-th%C3%A1i-d%C6%B0%C6%A1ng-9904a4253/"
+          target="_blank"
+        >
+          <FaLinkedin className="cursor-pointer" />
+        </a>
+        <a href="https://github.com/hoangthaiduong2001" target="_blank">
+          <FaGithub className="cursor-pointer" />
+        </a>
+        <a href="https://www.facebook.com/duongtantien90" target="_blank">
+          <FaFacebook className="cursor-pointer" />
+        </a>
+        <a href="https://www.instagram.com/duongtantien90/" target="_blank">
+          <FaInstagram className="cursor-pointer" />
+        </a>
       </div>
     </nav>
   );

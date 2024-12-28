@@ -1,7 +1,14 @@
 import { motion, RepeatType } from "framer-motion";
-import { DiMongodb } from "react-icons/di";
-import { IoLogoNodejs } from "react-icons/io";
-import { RiJavascriptFill, RiNextjsFill, RiReactjsLine } from "react-icons/ri";
+import { DiMongodb, DiNodejs } from "react-icons/di";
+import { FaCss3, FaHtml5 } from "react-icons/fa";
+
+import {
+  RiJavascriptFill,
+  RiNextjsFill,
+  RiReactjsLine,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+import { SiReactquery, SiRedux, SiTypescript } from "react-icons/si";
 
 const iconVariant = (duration: number) => ({
   initial: { y: -10 },
@@ -34,12 +41,45 @@ const Technologies = () => {
         className="flex flex-wrap justify-center items-center gap-4"
       >
         <motion.div
-          variants={iconVariant(1.5)}
+          variants={iconVariant(1)}
           initial="initial"
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <FaHtml5 className="text-7xl text-orange-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <FaCss3 className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1.4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <RiJavascriptFill className="text-7xl text-yellow-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariant(1.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <RiReactjsLine className="text-7xl text-cyan-500" />
         </motion.div>
         <motion.div
           variants={iconVariant(2)}
@@ -47,31 +87,47 @@ const Technologies = () => {
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
-          <RiNextjsFill className="text-7xl text-cyan-400" />
+          <RiNextjsFill className="text-7xl text-white" />
         </motion.div>
         <motion.div
-          variants={iconVariant(2.5)}
+          variants={iconVariant(1.8)}
           initial="initial"
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
-          <DiMongodb className="text-7xl text-cyan-400" />
+          <RiTailwindCssFill className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariant(2)}
+          variants={iconVariant(1.6)}
           initial="initial"
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
-          <IoLogoNodejs className="text-7xl text-cyan-400" />
+          <SiRedux className="text-7xl text-purple-500" />
         </motion.div>
         <motion.div
-          variants={iconVariant(1.5)}
+          variants={iconVariant(1.4)}
           initial="initial"
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
-          <RiJavascriptFill className="text-7xl text-cyan-400" />
+          <SiReactquery className="text-7xl text-red-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <DiMongodb className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <DiNodejs className="text-7xl text-green-600" />
         </motion.div>
       </motion.div>
     </div>
