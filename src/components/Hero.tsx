@@ -44,7 +44,7 @@ const Hero = () => {
               variants={containerLeft(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
+              className="text-center pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
             >
               Hoang Thai Duong
             </motion.h1>
@@ -80,8 +80,8 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="w-full lg:w-1/2 sm:mt-4">
-          <div className="flex sm:justify-center">
+        <div className="w-full lg:w-1/2 mt-4">
+          <div className="flex justify-center">
             <motion.button
               variants={containerLeft(1)}
               initial="hidden"

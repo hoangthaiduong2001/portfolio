@@ -8,7 +8,7 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-16 text-center text-4xl"
       >
         Experience
       </motion.h2>
@@ -53,10 +53,11 @@ const Experience = () => {
                   {experience.projects}
                 </p>
               </div>
+
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-500"
+                  className="inline-block mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-500"
                 >
                   {tech}
                 </span>
