@@ -1,6 +1,6 @@
 import { motion, RepeatType } from "framer-motion";
 import { DiMongodb, DiNodejs } from "react-icons/di";
-import { FaCss3, FaHtml5 } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaSass } from "react-icons/fa";
 
 import {
   RiJavascriptFill,
@@ -8,7 +8,12 @@ import {
   RiReactjsLine,
   RiTailwindCssFill,
 } from "react-icons/ri";
-import { SiReactquery, SiRedux, SiTypescript } from "react-icons/si";
+import {
+  SiReacthookform,
+  SiReactquery,
+  SiRedux,
+  SiTypescript,
+} from "react-icons/si";
 
 const iconVariant = (duration: number) => ({
   initial: { y: -10 },
@@ -87,7 +92,23 @@ const Technologies = () => {
           animate="animate"
           className="rounded-x2l border-4 border-neutral-800 p-4"
         >
+          <FaSass className="text-7xl text-pink-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
           <RiNextjsFill className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+          variants={iconVariant(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-x2l border-4 border-neutral-800 p-4"
+        >
+          <SiReacthookform className="text-7xl text-pink-700" />
         </motion.div>
         <motion.div
           variants={iconVariant(1.8)}
@@ -113,6 +134,7 @@ const Technologies = () => {
         >
           <SiReactquery className="text-7xl text-red-500" />
         </motion.div>
+
         <motion.div
           variants={iconVariant(1.2)}
           initial="initial"

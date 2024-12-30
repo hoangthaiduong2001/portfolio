@@ -29,17 +29,34 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">
+              <h6 className="mb-2 font-semibold text-xl">
                 {experience.role} -{" "}
-                <span className="text-sm text-purple-100">
+                <span className="text-purple-100 text-xl">
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <div className="mb-4 font-bold text-purple-200">
+                Main Responsibilities:{" "}
+                <p className="mb-4 text-neutral-400 inline text-sm">
+                  {experience.mainResponsibilities}
+                </p>
+              </div>
+              <div className="mb-4 font-bold text-purple-200">
+                Main Achievements:{" "}
+                <p className="mb-4 text-neutral-400 inline text-sm">
+                  {experience.mainAchievements}
+                </p>
+              </div>
+              <div className="mb-4 font-bold text-purple-200">
+                Projects:{" "}
+                <p className="mb-4 text-neutral-400 inline text-sm">
+                  {experience.projects}
+                </p>
+              </div>
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-500"
                 >
                   {tech}
                 </span>

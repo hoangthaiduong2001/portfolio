@@ -9,32 +9,34 @@ export const ABOUT_TEXT = `My journey as a developer has been fueled by an insat
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "04/2023 - Present",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Shinhan DS Vietnam",
+    mainResponsibilities:
+      "Integrated React into the project to enhance frontend capabilities. Developed a human resources management system. Expand responsibilities to develop a system for constructing an environment to initiate messages and databases for Korean partners. Collaborate with Korean development team to create CRUD, management admin pages.",
+    mainAchievements:
+      "Successfully implemented and applied React to the company's existing applications. Developed a successful website for constructing databases and messaging systems for partners. Built a website for initiating orders and showcasing products/service for partners.",
+    technologies: [
+      "Javascript",
+      "Reactjs",
+      "Nextjs",
+      "Typescript",
+      "TailwindCss",
+      "MUI",
+      "Storybook",
+    ],
+    projects: "ProjectTM(4 phases), Madiv-One, HRM, SOL, Internet Banking",
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "11/2022 - 03/2023",
+    role: " Intern Frontend developer",
+    company: "FPT Software",
+    mainResponsibilities:
+      " Participate in developing and building advertising and tourist room rental websites. Deployed services for websites, ensuring seamless implementation and optimal functionality.",
+    mainAchievements:
+      "Participate in website CRUD functions. Deploy and complete projects and hand over to customers.",
+    technologies: ["Javascript", "Reactjs", "Redux", "TailwindCss", "Antd"],
+    projects: "Hotel Booking, Advertising",
   },
 ];
 
@@ -54,6 +56,7 @@ export const PROJECTS = [
       "Nodejs",
       "MongoDB",
     ],
+    github: "https://github.com/thoaiIT/OwwiMoney",
   },
   {
     title: "Twitter",
@@ -61,13 +64,7 @@ export const PROJECTS = [
     description:
       "Is a server that includes APIs that have basic Twitter functionality.",
     technologies: ["Nodejs", "ExpressJS", "MongoDB", "SocketIO"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "TailwindCSS", "Reactjs"],
+    github: "https://github.com/hoangthaiduong2001/node_twitter",
   },
   {
     title: "Dish Order Website",
@@ -83,6 +80,15 @@ export const PROJECTS = [
       "React query",
       "SocketIO",
     ],
+    github: "https://github.com/hoangthaiduong2001/next-app",
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "TailwindCSS", "Reactjs"],
+    github: "https://github.com/hoangthaiduong2001/portfolio",
   },
 ];
 

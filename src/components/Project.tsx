@@ -29,6 +29,7 @@ const Project = () => {
                 height={150}
               />
             </motion.div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
