@@ -29,7 +29,7 @@ const containerRight = (delay: number) => ({
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "src/file/HoangThaiDuong_FrontendDeveloper.pdf";
+    link.href = "/public/file/HoangThaiDuong_FrontendDeveloper.pdf";
     link.download = "Hoang_Thai_Duong_CV.pdf";
     document.body.appendChild(link);
     link.click();
